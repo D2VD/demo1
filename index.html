@@ -1,45 +1,138 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>My Blog Website</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>My Blog Website</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h2>Home</h2>
-      <nav>
-        <ul>
-          <li><a href="#">Introduction</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
-      </nav>
-      <h2>Latest Posts</h2>
-      <div class="post">
-        <h3>My First Blog Post</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-        <a href="#">Read More</a>
-      </div>
-      <div class="post">
-        <h3>My Second Blog Post</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-        <a href="#">Read More</a>
-      </div>
-    </main>
-    <footer>
-      <p>Copyright © 2023 My Blog Website</p>
-    </footer>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Landing page</title>
+</head>
+<body>
+    
+       
+    <div class="overlay">
+      <video src="Clouds 4K free footage.mkv" loop autoplay class="video"></video>
+    <div class="text">
+        <h2>Never Stop</h2>
+        <h3>Exploring the World</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam unde inventore minima voluptatem at atque dolores quis doloribus quia. </p>
+        <a href="explore.html">Explore</a>
+    </div>
+    </div>
+    <body>
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="wrapper container">
+              <div class="logo">
+                <a href="/">
+                  NEMO
+                </a>
+              </div>
+      
+              <ul class="nav-list">
+                <div class="top">
+                  <label for="" class="btn close-btn"
+                    ><i class='bx bx-x' ></i></label>
+                </div>
+      
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li>
+                  <a href="" class="desktop-item"
+                    >Shop <span><i class='bx bx-chevron-down'></i></span
+                  ></a>
+                  <input type="checkbox" id="showMega" />
+                  <label for="showMega" class="mobile-item">Shop <span><i class='bx bx-chevron-down'></i></label>
+                  <div class="mega-box">
+                    <div class="content">
+                      <div class="row">
+                        <img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg" alt="">
+                      </div>
+                      <div class="row">
+                        <header>Shop Layout</header>
+                        <ul class="mega-links">
+                          <li><a href="">Shop with Background</a></li>
+                          <li><a href="">Shop with Background</a></li>
+                          <li><a href="">Shop with Background</a></li>
+                          <li><a href="">Shop with Background</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Product Layout</header>
+                        <ul class="mega-links">
+                          <li><a href="">Shop with Background</a></li>
+                          <li><a href="">Shop with Background</a></li>
+                          <li><a href="">Shop with Background</a></li>
+                          <li><a href="">Shop with Background</a></li>
+                        </ul>
+                      </div>
+                      <div class="row">
+                        <header>Filter Layout</header>
+                        <ul class="mega-links">
+                          <li><a href="">Shop with Background</a></li>
+                          <li><a href="">Shop with Background</a></li>
+                          <li><a href="">Shop with Background</a></li>
+                          <li><a href="">Shop with Background</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="">Blog</a></li>
+                <li>
+                  <a href="" class="desktop-item">Vendors <span><i class='bx bx-chevron-down'></i> </a>
+                    <input type="checkbox"  id="showdrop1">
+                    <label for="showdrop1" class="mobile-item">Vendors <span><i class='bx bx-chevron-down'></i></label>
+                      <ul class="drop-menu1">
+                        <li><a href="">Vendor store listings</a></li>
+                        <li><a href="">store details</a></li>
+                      </ul>
+                  </li>
+                <li>
+                  <a href="" class="desktop-item">Page <span><i class='bx bx-chevron-down'></i> </a>
+                    <input type="checkbox"  id="showdrop2">
+                    <label for="showdrop2" class="mobile-item">Page <span><i class='bx bx-chevron-down'></i></label>
+                      <ul class="drop-menu2">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Faq</a></li>
+                        <li><a href="">Page 404</a></li>
+                      </ul>
+                  </li>
+                <li class="icons">
+                  <a href="cart.html">
+                  <span>
+                    <i class='bx bx-cart'></i>
+                    <small class="count d-flex">0</small>
+                  </span>
+                </a>
+              <span>
+                <i class='bx bx-search' ></i>
+              </span>
+              </li>
+              </ul>
+              <label for="" class="btn open-btn"><i class='bx bx-menu' ></i></label>
+            </div>
+          </nav>
+<div class="bottom-navigation">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="">Blog</a></li>
+    <li><a href="">Vendors</a></li>
+    <li><a href="">Page</a></li>
+  </ul>
+</div>
+         
+          
+      
+          <!-- Custom Js -->
+          <script src="scripts.js"></script>
+      </body>
+      </html>
+
+
+  
+    
+</body>
 </html>
